@@ -1,0 +1,28 @@
+body{
+    margin:0;
+}
+
+.main{
+    padding: 2rem;
+    background: linear-gradient(147deg, rgb(7, 7, 46), rgb(96, 96, 221));
+    background-repeat: no-repeat;
+    /* height: 100vh; */
+    width: 100vw;
+    display: grid;
+}
+
+.write-here{
+    margin: auto;
+    background-color: rgb(181, 216, 247);
+}
+
+#preview{
+    margin: auto;
+    overflow-x: hidden;
+    overflow-y: auto;
+    width: 50rem;
+    height: 20rem;
+    text-align: left;
+    color: black;
+    background-color: yellow;
+}
